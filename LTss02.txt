@@ -1,0 +1,8 @@
+1. object-fit.
+2.max/min-width: gioi han.
+3.Padding: khoảng cách từ boder vs nd bên trong
+  border: vẽ viền  
+4. Margin: 
+5.Table
+    tr: hàng
+    td,th:cột
