@@ -1,0 +1,16 @@
+p{
+    color: #34df1a;
+}
+
+div{
+    border: 0,5px gray;
+    width: 800px;
+    background-color:gainsboro;
+    
+}
+label{
+    width: 150px;
+}
+.phone{
+    width: 200px;
+}

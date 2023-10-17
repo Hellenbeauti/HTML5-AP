@@ -1,0 +1,27 @@
+div.heading{
+    text-decoration-line: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+div.general{
+    font-style: italic;
+    text-align: justify;
+
+    
+}
+div.places{
+    text-decoration-line: underline;
+    font-size: medium;
+
+}
+ul,li{
+
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: square;
+
+}
+ 
