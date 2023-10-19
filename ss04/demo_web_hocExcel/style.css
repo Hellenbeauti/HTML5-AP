@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.banner img {
+    width: 25%;
+    padding-left: 5%;
+
+}
+.menu ul {
+    background-color: brown;
+    color: white;
+    display: flex;
+    list-style-type: none;
+    cursor: pointer;
+    
+}
+
+.menu ul li {
+    text-align: center;
+    width: 100px;
+    padding: 10px;
+}
+.contai-left{
+    width: 70%;
+    padding: 5px;
+}
+.contai-right{
+    width: 30%;
+    padding: 5px;
+}
+.image img{
+    width: 200px;
+}
+
+.contai-left-1, .contai-left-2, .contai-left-3{
+    display: flex;
+    padding: 5px;
+
+}
+.titel{
+   
+    padding:0px 10px;
+    text-align: justify;
+
+}
+.continue{
+    color: red;
+
+}
+.content{
+    padding: 10px;
+}
+.contai{
+    display: flex;
+}
+.image-right img{
+    width: 150px;
+}
+.contai-right-1, .contai-right-2, .contai-right-3, .contai-right-4, .contai-right-5{
+    display: flex;
+    padding: 5px;
+}
+.title-right{
+    padding: 0px 10px;
+    text-align: justify;
+    font-size: 12px;
+
+}

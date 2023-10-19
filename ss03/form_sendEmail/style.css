@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(255,255,240);
+}
+.EmailEditor{
+    background-color: #FFFFDD;
+}
+
+#main{
+    width: 400px;
+    background-color: #DDFFEE;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0px auto;
+}
+.group label{
+    width: 15%;
+    float: left;
+    
+}
+#help{
+    position: absolute;
+    width: 500px;
+    height: 420px;
+    top: 10px;
+    display: none;
+    border: 2px;
+}
+.close{
+
+}
+
+ul{
+
+}

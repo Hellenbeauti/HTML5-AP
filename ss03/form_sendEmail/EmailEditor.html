@@ -9,43 +9,36 @@
 </head>
 
 <body>
-    <div>
-        <h2> Compose e-mail message.</h2>
-        <form>
-            <div>
-                <label for="to">To:</label>
-                <input type="text" id="to" name="to"><br>
+    <form action="Status.html" method="get">
+        <div id="main">
+            <h2> Compose e-mail message.</h2>
+            <div class="group">
+                <label>To:</label>
+                <input required type="text" id="to" name="to" class="EmailEditor"><br>
             </div>
-            <div>
-                <label for="form">Form:</label>
-                <input type="text" id="form" name="form"><br>
+            <div class="group">
+                <label>Form:</label>
+                <input required type="email" id="form" name="form" class="EmailEditor" minlength="6"><br>
             </div>
-            <div>
-                <label for="cc">Cc:</label>
-                <input type="text" id="cc" name="cc"><br>
+            <div class="group">
+                <label>Cc:</label>
+                <input required type="email" id="cc" name="cc" class="EmailEditor"><br>
             </div>
-            <div>
-                <label for="subject">Subject:</label>
-                <input type="text" id="subject" name="subject"><br>
+            <div class="group">
+                <label>Subject:</label>
+                <input required type="text" id="subject" name="subject" 
+                class="EmailEditor" pattern="[a-zA-Z0-9 ]{6,200}"><br>
             </div>
-            <div>
-                <label for="mess">Message:</label>
-                <input type="" id="mess" name="mess"><br>
+            <div class="group">
+                <label>Message:</label>
+                <input required type="text" id="mess" name="mess" class="EmailEditor"><br>
             </div>
-            <div class="send">
-
-               <a href="Status.html"><input type="submit" value="Send"></a>     
-
+            <div class="group">
+                <button type="submit">Send</button>
+                <button type="reset">Cancel</button>
             </div>
-            <div class="cancel">
-                <input type="reset" value="Cancel">
-            </div>
-
-            <div>
-                <button></button>
-            </div>
-        </form>
-    </div>
+        </div>
+    </form>
 </body>
 
 </html>
