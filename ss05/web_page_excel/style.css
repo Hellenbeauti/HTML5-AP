@@ -1,0 +1,126 @@
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+.header .banner img {
+	height: 60px;
+}
+
+.nav {
+	background-color: #f54320;
+}
+
+.nav ul {
+	list-style-type: none;
+	display: flex;
+	padding: 0px;
+	margin: 0px;
+}
+
+.nav ul li {
+	padding: 10px;
+	color: white;
+	cursor: pointer;
+}
+
+.nav ul li:hover {
+	background-color: orange;
+}
+
+.main-content {
+	width: 100%;
+}
+
+.main-left {
+	width: 70%;
+	float: left;
+}
+
+.main-right {
+	width: 30%;
+	float: left;
+}
+
+.row {
+	width: 100%;
+	display: flex;
+}
+
+.row .col-6 {
+	width: 50%;
+	padding-right: 10px;
+}
+
+.row .col-6 img {
+	max-width: 100%;
+}
+
+.row .col-4 {
+	width: calc(4 * 100%/12);
+	padding-right: 10px;
+}
+
+.row .col-8 {
+	width: calc(8 * 100%/12);
+}
+
+.row .col-4 img {
+	max-width: 100%;
+}
+
+.title {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.align-all {
+	margin-left: 8% !important;
+	margin-right: 8% !important;
+}
+
+.search {
+	margin-bottom: 20px;
+	width: 100%;
+	position: relative;
+	margin-top: 5px;
+}
+
+.search input {
+	width: 100%;
+	font-size: 20px;
+	padding: 10px;
+	border-color: transparent;
+	background-color: #e3e2e1;
+}
+
+.search button {
+	background-color: transparent;
+	border: none;
+	font-size: 20px;
+    position: absolute;
+	top: 6px;
+	right: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+	.main-left {
+		width: 100%;
+	}
+
+	.main-right {
+		width: 100%;
+	}
+
+	.row {
+		display: block;
+		margin-bottom: 20px;
+	}
+
+	.row .col-6 {
+		width: 100%;
+	}
+}
+
+
+

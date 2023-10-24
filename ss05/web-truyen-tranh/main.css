@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+img{
+    border-radius: 7px;
+}
+
+h2{
+    color: #4db5ff;
+}
+
+.header{
+    background-color: #8939b1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.header div{
+    display: inline-block;
+    margin: 5px 10px;
+}
+
+.search form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search input{
+    width: 400px;
+    padding: 7px;
+    border: none;
+    outline: none;
+}
+.search button{
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+.search button:hover{
+    background-color: #d5d5d5;
+}
+.search button img{
+    width: 22px;
+    padding: 2px;
+}
+
+.nav-bar{
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link{
+    padding: 12px 8px;
+}
+#home-icon{
+    height: 17px;
+}
+.nav-link:hover{
+    background-color: #d5d5d5;
+}
+
+.container{
+    width: 70%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+
+.horizontal-list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-height: 290px;
+    overflow: hidden;
+}
+.list-item-detailed{
+    margin: 0 10px;
+    position: relative;
+}
+.image-big img{
+    width: 200px;
+}
+.detail-full{
+    position: absolute;
+    width: 180px;
+    bottom: 4px;
+    background-color: #000;
+    opacity: 80%;
+    color: #ececec;
+    padding: 10px;
+}
+.detail-full p{
+    text-align: center;
+}
+
+.comic-name{
+    font-size: 16px;
+    font-weight: bold;
+}
+.comic-info{
+    font-size: 12px;
+}
+
+.main-container{
+    margin-top: 50px;
+    display: grid;
+    grid-template: auto / 80% auto;
+    column-gap: 50px;
+}
+
+.grid-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.list-item{
+    margin: 10px;
+}
+.image-medium img{
+    width: 180px;
+}
+.chapter-list{
+    font-size: 15px;
+}
+
+.hoz-list-item{
+    display: grid;
+    grid-template: auto / 30px 60px 100%;
+    column-gap: 5px;
+    margin: 10px 0;
+}
+.no{
+    font-size: 40px;
+}
+
+.image-small img{
+    width: 60px;
+    height: 60px;
+}
+

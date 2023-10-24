@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        
+        a= prompt('Nhap a')
+        b= prompt('Nhap b')
+        c= prompt('Nhap c')
+
+        delta= b*b-4*a*c;
+
+        if(a==0 && b!=0){
+            document.writeln('x = ' + (-c)/b)
+        }
+        if(a!=0 && b!=0){
+            if(delta=0){
+                    document.writeln('PT co nghiem kep x1=x2=' + (-b)/(2*a));
+            }else if( delta < 0){
+                document.writeln('PT vo nghiem');
+
+            }else{
+                document.writeln('PT co 2 nghiem x1 = ' + ((-b)-Math.sqrt(delta))/(2*a) + ', x2= ' + ((-b)+Math.sqrt(delta))/(2*a));
+            }
+    
+        }
+        if(a==0 && b==0){
+            document.writeln('PT co 1 nghiem x= ' + c);
+        }
+    </script>
+</body>
+</html>
