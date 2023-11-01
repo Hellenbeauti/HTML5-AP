@@ -1,0 +1,41 @@
+.panel{
+    width: 600px;
+    margin: 0px auto;
+    background: #ffffcc;
+    padding: 10px;
+}
+
+.panel h2{
+    color: #0000cc;
+
+}
+
+.panel-body .left{
+    display: flex;
+}
+
+.panel-body .left img{
+    width: 120px;
+}
+
+.group-control{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.group-control label{
+    width: 100px;
+    color: #000066;
+    font-size: 16px;
+}
+
+.group-control input {
+    font-size: 16px;
+    padding: 4px;
+    width: 300px;
+}
+.group-control button{
+    margin-right: 10px;
+    font-size: 16px;
+    padding: 3px 6px;
+}

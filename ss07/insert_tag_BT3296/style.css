@@ -1,0 +1,55 @@
+.panel{
+    width: 600px;
+    margin: 0px auto;
+    border: solid #2196f3 2px;
+}
+.panel .panel-heading {
+    background-color: #2196f3;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.panel .panel-body {
+    padding: 10px;
+}
+
+.group-control {
+    margin-bottom: 15px;
+}
+
+.group-control label {
+    width: 120px;
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.group-control input {
+    font-size: 16px;
+    padding: 5px;
+    width: 360px;
+}
+
+.btn {
+    font-size: 16px;
+    padding: 8px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.btn-success {
+    background-color: blue;
+    color: white;
+}
+
+.btn-warning {
+    background-color: orange;
+}
+
+.btn:hover {
+    background-color: lightgreen;
+    color: black;
+}

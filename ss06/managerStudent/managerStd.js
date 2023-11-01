@@ -27,15 +27,14 @@ for(i=0; i<20; ++i){
 
 document.addEventListener('DOMContentLoaded',function(){
     let data=`
-
     <tr>
-    <th>STT</th>
-    <th>Ten</th>
-    <th>Tuoi</th>
-    <th>Dia Chi</th>
-    <th>Email</th>
-    <th>Sdt</th>
-</tr>
+        <th>STT</th>
+        <th>Ten</th>
+        <th>Tuoi</th>
+        <th>Dia Chi</th>
+        <th>Email</th>
+        <th>Sdt</th>
+    </tr>
     `
 
 

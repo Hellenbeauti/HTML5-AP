@@ -1,0 +1,23 @@
+.panel {
+    width: 600px;
+    margin: 0px auto;
+    
+}
+.panel-heading{
+    background-color: #2196f3;
+    color: white;
+    font-size: 22px;
+    padding: 10px;
+}
+.panel .panel-body{
+    padding: 10px;
+}
+.btn{
+    font-size: 16px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}

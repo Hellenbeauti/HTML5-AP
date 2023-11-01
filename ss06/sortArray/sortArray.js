@@ -1,7 +1,8 @@
 
 var t =[]
 N = prompt('Nhap so luong phan tu N');
-for(i=0; i<N; i++){
+N = parseInt(N);
+for(var i=0; i<N; i++){
     t.push(prompt());
 }
 

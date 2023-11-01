@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.header{
+    width: 100%;
+}
+
+.banner{
+    position: relative;
+    padding: 10px 0;
+}                                                                         
+.logo{
+    width: 100px;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                
+.title{
+    width: 100%;
+    text-align: center;
+}
+.menu ul{
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    cursor: pointer;
+    text-align: center;
+}
+.menu ul li{
+    border: soid 2px white;
+    width: 100px;
+    padding: 10px;
+}
+
+.menu ul li:hover{
+    background-color: lightgreen;
+    color: #000;
+}
+
+.left-content{
+    
+    padding:20px 5px ;
+    width: 70%;
+}
+.right-content{
+    margin: 20px;
+    width: 30%;
+    padding: 20px;
+
+}
+
+
+.main-content{
+    display: flex;
+}
+
+.list-right-content ul {
+    list-style-type: none;
+
+}
+.list-right-content .list-right-content ul li{
+    padding: 10px;
+}
+
+.right-content {
+    border: solid  8px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+.group-control save{
+    
+}
+
+input{
+    border: 4px solid #000;
+}
+
+
+
+
+
+.dialog {
+	width: 100%;
+	height: 100%;
+	background-color: #00000078;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+.dialog .dialog-content {
+	width: 300px;
+	margin: 0px auto;
+	background-mau: white;
+	margin-top: 15%;
+}
+
+.dialog .dialog-body {
+	padding: 30px;
+	text-align: center;
+}
+
+.dialog .dialog-footer {
+	background-mau: #ede8e8;
+	text-align: right;
+	padding: 10px;
+}
+
+.dialog .dialog-footer button {
+	font-size: 18px;
+	padding: 6px 15px;
+}
+
+
+
+

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="banner">
+                <div class="logo">
+                    <h2> LOGO </h2>
+                </div>
+                <div class="title">
+                    <h2> WEB TIN TUC </h2>
+                </div>
+            </div>
+            <div class="menu">
+                <ul class="">
+                    <li>Trang Chu</li>
+                    <li>Tin Hoc</li>
+                    <li>Bieu Mau</li>
+                    <li>Khoa Hoc</li>
+                    <li>Tuyen Dung</li>
+                    <li>Lien He</li>
+                    <li> </li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="left-content">
+                <h3> NOI DUNG BAI VIET</h3>
+                <p> Suckhoedoisong.vn Ban tin 18h ngay 13/3 cua Bộ Y tế cho biết coa 3  mắc mới
+                    COVID-19 
+                </p>
+
+            </div>
+
+            <div class="right-content">
+                <div class="title-right-content">
+                    <h2> BAI VIET MOI NHAT</h2>
+                </div>
+                <div class="list-right-content">
+                    <ul>
+                        <li>Bai 1</li>
+                        <li>Bai 2</li>
+                        <li>Bai 3</li>
+                        <li>Bai 4</li>
+                        <li>Bai 5</li>
+                    </ul>
+
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+
+
+<div class="panel">
+    <div class="panel-header">
+        <h2> NHAP THONG TIN BAI VIET</h2>
+    </div>
+
+    <div class="panel-body">
+        <form action="">
+            <div class="group-control">
+                <label for="">TIEU DE : </label>
+                <input type="text" name="title" id="title_id" required maxlength="200" minlength="10">
+
+            </div>
+
+            <div class="group-control">
+                <label for="">HINH ANH : </label>
+                <input type="text" name="image" id="image_id" required>
+
+            </div>
+
+            <div class="group-control">
+                <label for="">NOI DUNG : </label>
+                <input type="text" name="content" id="content_id" required maxlength="500 " minlength="20">
+
+            </div>
+            
+
+            <div class="group-control">
+                <button class="save" onclick="save()">LUU</button>
+                <button class="delete" onclick="reset()">XOA</button>
+
+            </div>
+
+        </form>
+
+
+    </div>
+
+</div>
+
+
+<div class="dialog" id="dialog-id">
+	<div class="dialog-content">
+		<div class="dialog-body">
+			Dang nhap thanh cong
+		</div>
+		<div class="dialog-footer">
+			<button onclick="closeDialog()">OK</button>
+		</div>
+	</div>
+</div>
+
+
+    <script src="title.js"></script>
+</body>
+</html>
